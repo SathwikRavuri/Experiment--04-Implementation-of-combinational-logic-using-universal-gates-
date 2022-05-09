@@ -40,6 +40,7 @@ Developed by: Ravuri sathwik
 RegisterNumber:  2000
 */~~~ 
 
+~~~
 ## F=((C'.B.A)'(D'.C.A)'(C.B'.A)')' using NAND gate
 
 module Combination(A,B,C,D,F);
@@ -51,6 +52,9 @@ assign Q = D&(~C)&(~A);
 assign R = (~C)&B&(~A);
 assign F = (~P&~Q&~R);
 endmodule
+
+
+
 ## F=(((C.B'.A)+(D.C'.A)+(C.B'.A))')' using NOR gate
 
 module norcombination(A,B,C,D,F);
@@ -63,6 +67,7 @@ assign R = C&(~B)&A;
 assign S = ~(P|Q|R);
 not(F,S);
 endmodule
+~~~
 
 ~~~
 
