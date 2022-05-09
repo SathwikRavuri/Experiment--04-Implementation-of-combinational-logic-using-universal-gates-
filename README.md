@@ -40,7 +40,7 @@ Developed by: Ravuri sathwik
 RegisterNumber:  2000
 */~~~ 
 
-~~~
+
 ## F=((C'.B.A)'(D'.C.A)'(C.B'.A)')' using NAND gate
 
 module Combination(A,B,C,D,F);
@@ -69,7 +69,7 @@ not(F,S);
 endmodule
 ~~~
 
-~~~
+
 
 
 
